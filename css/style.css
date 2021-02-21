@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Livvic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+header{
+    overflow-x: hidden;
+}
+h1{
+    font-family: Abel;
+    font-size: 2.5rem;
+}
+h2{
+    font-family: 'Lexend Deca', sans-serif;
+}
+h6{
+    font-family: Abel;
+    font-size: 1.3rem;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(44, 44, 44);
+}
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 2.5rem;
+    font-size: .9rem;
+    font-family: El Messiri;
+    cursor: pointer;
+}
+span{
+    font-family: Cairo;
+}
+p{
+    font-family: Livvic;
+    color: grey;
+}
+html, body { height: 100%; }
+
+.navbar-brand{
+    font-size: 1.2em;
+    font-family: Abel;
+    font-weight: bold;
+    
+}
+header {
+    font-size: 1.2em;
+    font-family: Abel;
+    font-weight: bold; 
+}
+header a{
+    font-size: 0.9em;
+    color: rgb(53, 2, 100);
+}
+nav{
+    background:rgb(205, 160, 255);
+
+}
+
+header .nav-item:last-child{
+    padding-right: 8.5em;
+}
+header .nav-item{
+    padding: 0.9em;
+    
+}
+header .navbar-brand{
+    padding-left: 8rem;
+}
+header .nav-link:hover{
+    color: rgb(53, 2, 100);
+}
+.active{
+    border-bottom: 2px solid rgb(53, 2, 100);
+    
+}
+.after-nav{
+    background: linear-gradient( rgb(205, 160, 255) , rgb(255, 255, 255) );
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.btn-header{
+    background-color: rgb(53, 2, 100);
+    color: white;
+}
+.filtering-list{
+    list-style: none;
+}
+.filter-item a{
+    text-decoration: none;
+    color: rgb(53, 2, 100);
+}
+.filter-item{
+    background-color:rgb(205, 160, 255) ;
+    border-radius: 10px;
+    padding: 10px 0;
+    box-shadow: 3px 3px 5px grey;
+}
+.filter-item:hover{
+    box-shadow: 5px 5px 5px grey;
+    cursor: pointer;
+}
+.section-title{
+    color:rgb(53, 2, 100);
+    font-weight: bold;
+}
+.custom{
+    background-color: white;
+    margin-left: auto;
+}
+.section-2{
+    
+    background:rgb(205, 160, 255);
+
+}
+
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+}
+.cover .content{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content>h1{
+    color: rgb(53, 2, 100);
+    text-shadow: 0 0 20px rgb(243, 232, 255);
+}
+.cover .content p{
+    color: white;
+}
+.rect-text .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 12rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5rem;
+    box-shadow: 1px 2px 50px 0px rgba(221, 144, 180, 0.7);
+}
+.card{
+    border: none;
+}
+.rect-text{
+    margin-top: -19vmin;
+}
+footer{
+    margin: 0px ;
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom:20px ;
+    background: linear-gradient( rgb(255, 255, 255), rgba(221, 144, 180, 0.7))
+}
+footer ul {
+    flex: 1;
+    text-align: right;
+}
+footer ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px ;
+
+}
+.rect {
+    Overflow :hidden;
+    }
+
+.rect img {
+Width:100%;
+Display:block;
+}
+.footer-parent .paragraph-about,
+.footer-parent .list-group .list-group-item {
+    font-size: 12px;
+}
+.footer-parent .bottom-about li{
+    margin-right: 12px;
+}
+.footer-parent .bottom-about li:hover{
+    margin-top: -3px;
+}
+.copyright .lead {
+    font-size: .66rem;
+}
+.copyright .privacy .list-group-item {
+    font-size: .66rem;
+    padding-bottom: 5px;
+    border: 0;
+    margin: 6px;
+    padding:5px;
+}
+.lead{
+    color: black;
+}
+.foo {
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border: 1px solid rgba(0, 0, 0, .2);
+  }
+  
+  .blue {
+    background: #13b4ff;
+  }
+  
+  .purple {
+    background: #ab3fdd;
+  }
+  
+  .wine {
+    background: #ae163e;
+  }
+  .rose{
+      background-color: rgba(221, 144, 180, 0.7);
+  }
+  .white{
+      background-color: white;
+  }
+  .green{
+      background-color: green;
+  }
+  .black{
+      background-color: black;
+  }
+  .da{
+      box-shadow: 3px 5px 3px grey;
+  }
+  section  h1{
+      color: rgb(53, 2, 100);
+
+  }
+ .row h4 {
+     color:  rgb(53, 2, 100);
+  }
